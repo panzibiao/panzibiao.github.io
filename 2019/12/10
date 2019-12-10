@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+    </title>
+    <!-- 引入我们初始化样式文件 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入我们公共的样式文件 -->
+    <link rel="stylesheet" href="css/common.css">
+</head>
+     
+<body>
+    <!--快键小导航-->
+    <section class="shortcut">
+    	<div class="fl">
+    		<ul>
+    			<li>品优购欢迎您！</li>
+    		</ul>
+    		<a href="登陆"></a>
+    		<a href="注册"></a>
+    	</li>
+    </ul>
+    	</div>
+    	<div class="fr">
+    		<ul>
+    			<li>1</li>
+    			<li>2</li>
+    			<li>3</li>
+    			<li>4</li>
+    			<li>5</li>
+    			<li>6</li>
+    			<li>7</li>
+           </ul>
+         </ul>
+       </div>
+    </section>
+    <!--header头部制作-->
+    <header class="header w">
+    	<!--logo模板-->
+    	<div class="logo">
+    		<h1>
+    			<a href="">品优购商场</a>
+    		</h1>
+    	</div>
+    	<!--search搜索-->
+    	<div class="search">
+    		<input type="search" name="" placeholder="网页开发">
+    		<button>搜索</button>
+    	</div>
+    	<div class="shortcut">
+    		我的购物车
+    	<i class="count">8</i>
+    	</div>
+    </header>
+
+
+</body>
+</html>
+
+
+
+css
+.W{
+	widows: 1200PX;
+	margin: 0 auto
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*小导航模板*/
+.shortcut{
+	height: 30px;
+	line-height: 30px;
+	background-color: #f1f1f1;
+}
+.shortcut ul li{
+	float: left;
+}
+.shortcut .fr ul li{
+	widows: 1px;
+	height: 12px;
+	margin: 9px 15px 0;
+}
+.header{
+	position: relative;
+	height: 105px;
+}
+.logo{
+	position: absolute;
+	top: 25px;
+	widows: 170;
+	height:61px;
+}
+.logo a{
+	direction: block;
+	widows: 170;
+	height: 61px;
+	background: url(./imger/logo.png);
+	text-indent: -999px;
+	overflow: hidden;
+}
+.search input{
+	float: left;
+	widows: 480px;
+	height: 30px;
+	padding-left: 10px;
+}
+.search button{
+	float: left;
+	widows: 80px;
+	height: 30px;
+	background-color:#b1191a;
+	font-size:20px; 
+	color:#fff;
+}
+.shopcar{
+	position: absolute;
+	right: 60px;
+	top: 25px;
+	widows: 25px;
+	height: 35px;
+	line-height: 35px;
+	background-color: #f7f7f7;
+}
+.count{
+	position: absolute;
+	top: -5px;
+	left: 105px;
+	height: 14px;
+	line-height: 14px;
+	color: #fff;
+	background-color: red;
+	padding: 0 5px;
+	border-radius: 7px 7px 7px 0;
+}
+
